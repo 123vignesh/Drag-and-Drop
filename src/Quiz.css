@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.QuizBoxes {
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    height: 350px;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.flexbox .board {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 600px;
+    height: 500px;
+    background-color: #ffff;
+    padding: 15px;
+}
+
+.flexbox .board .card {
+    padding: 15px 25px;
+    background-color: #39a8db;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.Buttons {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+button {
+    padding: 15px;
+    width: 100px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+button:hover {
+    width: 99px;
+    background-color: rgb(58, 172, 211);
+}
+
+.QuestionPart {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.WholeBoard {
+
+    margin: 300px;
+    margin-top: 80px;
+    border: 5px solid black;
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+.Header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
